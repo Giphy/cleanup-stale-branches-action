@@ -33,6 +33,9 @@ inputs:
     description: 'Stop the action if it exceeds 95% of the GitHub API rate limit'
     required: false
     default: 'true'
+outputs:
+  output:
+    description: output of the branches deleted
 
 runs:
   using: 'docker'
